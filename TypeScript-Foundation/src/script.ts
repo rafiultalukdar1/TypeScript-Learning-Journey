@@ -60,3 +60,41 @@ const userInfo = (...args : [name : string, age : number, isActive : true]) => {
 
 userInfo("Rafi", 22, true)
 
+
+// Object, Type Alias and Interface
+
+type tUserAddress = {
+    streatName : string;
+    holdingNumber : number
+}
+
+type tUser = {
+    name : string;
+    age : number;
+    isActive : boolean;
+    action : () => void;
+    badges : string[];
+    address : tUserAddress;
+};
+
+type iUser = {
+    name : string;
+    age : number;
+    isActive : boolean;
+    action : () => void;
+    badges : string[];
+};
+
+const userDetails : tUser = {
+    name : "Rafi",
+    age : 22,
+    isActive : true,
+    action : () => console.log("Hello"),
+    badges : ["Manuk", "Ratan"],
+    address : {
+        streatName : "ABCD",
+        holdingNumber : 1234
+    },
+};
+
+console.log(userDetails);
