@@ -12,6 +12,7 @@
 01. TypeScript Extension Pack
 02. TypeScript 7
 03. Pretty TypeScript Errors
+04. Better Comments
 
 ## Folder Structure
 
@@ -84,7 +85,3 @@ npx live-server
 - Run `npx live-server` to open your project through a local HTTP server.
 - Press `Ctrl + C` to stop a running terminal process.
 - `touch` works in Git Bash. In Windows CMD, use `type nul > filename` to create files.
-
----
-
-**Happy Coding!**
