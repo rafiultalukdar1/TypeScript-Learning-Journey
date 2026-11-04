@@ -6,11 +6,11 @@ type Status = "Pandind" | "Aproved" | "Rejected";
 
 const someStatus : string = "Pandding";
 
-const showStatu = (status : Status) => {
+const showStatus = (status : Status) => {
     console.log("Your current application status is " + status);
 };
 
-showStatu(someStatus as Status);
+showStatus(someStatus as Status);
 
 
 // Non-null Assertion
